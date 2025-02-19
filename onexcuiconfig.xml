@@ -1,0 +1,183 @@
+<?xml version="1.0"?>
+<UserData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://xml.avaya.com/endpointAPI">
+  <Application>
+    <BypassPortLogic>false</BypassPortLogic>
+    <BypassRecovery>false</BypassRecovery>
+    <CultureName>ru-RU</CultureName>
+    <LastTuningWizardVersionRun>0</LastTuningWizardVersionRun>
+    <AutoLogin>false</AutoLogin>
+    <ShowDTMF>false</ShowDTMF>
+    <StatsUpdateFreq>5000</StatsUpdateFreq>
+    <AutoDiscoverDateTime>11/14/2024 16:22:32</AutoDiscoverDateTime>
+    <TimeOutDeviceChangeNotification>10</TimeOutDeviceChangeNotification>
+    <TimeOutNewDeviceNotification>60</TimeOutNewDeviceNotification>
+    <TimeOutSmallSizedNotification>60</TimeOutSmallSizedNotification>
+    <SignalProtocol>1</SignalProtocol>
+    <RunWizard>false</RunWizard>
+    <RunOneXCESWizard>true</RunOneXCESWizard>
+    <CESLoginTimeout>30</CESLoginTimeout>
+  </Application>
+  <Diagnostics>
+    <EnableDiagnosticLogging>false</EnableDiagnosticLogging>
+    <SelectedDiagnosticLoggingIssue />
+    <LogLevel>ERROR</LogLevel>
+    <SelectedCategories />
+    <LogFileSize>2</LogFileSize>
+    <APILogLevel>ERROR</APILogLevel>
+    <APISelectedCategories />
+    <AVCLogLevel>ERROR</AVCLogLevel>
+    <AVCSelectedCategories />
+  </Diagnostics>
+  <Display>
+    <DisplayCallAlerts>true</DisplayCallAlerts>
+    <LineDisplayVisible>false</LineDisplayVisible>
+    <PanelPhoneVisible>false</PanelPhoneVisible>
+    <MainWindowPosition>
+      <Left>1041</Left>
+      <Top>209</Top>
+      <Width>-1</Width>
+      <Height>-1</Height>
+    </MainWindowPosition>
+    <ShowBalloonTip>false</ShowBalloonTip>
+    <InboxHeight>205</InboxHeight>
+    <InboxWidth>480</InboxWidth>
+    <InboxDisplayMode>CallLog</InboxDisplayMode>
+    <ContactDisplayNameFormatFirstLast>true</ContactDisplayNameFormatFirstLast>
+    <MinimizeToTaskTray>true</MinimizeToTaskTray>
+    <ShowLineDisplayInCallToast>false</ShowLineDisplayInCallToast>
+    <DisplayTeamCallAlert>true</DisplayTeamCallAlert>
+  </Display>
+  <Messaging>
+    <MessageAccessMode>DialNumber</MessageAccessMode>
+    <EnableMessageAccess>false</EnableMessageAccess>
+    <MessageAccessNumber />
+    <MessageAccessApplication />
+    <MessageAccessWebPage />
+  </Messaging>
+  <Features>
+    <PortalLogoffDelay>0</PortalLogoffDelay>
+    <ContactLookupDelay>500</ContactLookupDelay>
+    <EnableWipeToDial>true</EnableWipeToDial>
+    <EnableCCEIntegration>true</EnableCCEIntegration>
+    <SuppressPromptingForURIMakeCall>false</SuppressPromptingForURIMakeCall>
+  </Features>
+  <Dialpad>
+    <FloatLocation_x>-1234</FloatLocation_x>
+    <FloatLocation_y>-1234</FloatLocation_y>
+    <DockPosition>BOTTOM</DockPosition>
+    <Visible>true</Visible>
+    <ExpandedFeaturesSize_width>469</ExpandedFeaturesSize_width>
+    <ExpandedFeaturesSize_height>103</ExpandedFeaturesSize_height>
+    <ExpandedFeaturesVisible>false</ExpandedFeaturesVisible>
+  </Dialpad>
+  <Conferencing>
+    <FloatLocation_x>-1234</FloatLocation_x>
+    <FloatLocation_y>-1234</FloatLocation_y>
+    <DockPosition>FLOAT</DockPosition>
+    <Visible>false</Visible>
+    <ParticipantsListSize_width>0</ParticipantsListSize_width>
+    <ParticipantsListSize_height>300</ParticipantsListSize_height>
+  </Conferencing>
+  <Audio>
+    <MaxAGCComfortLevel>28000</MaxAGCComfortLevel>
+    <MinAGCComfortLevel>4000</MinAGCComfortLevel>
+    <AgcTargetSignalLevel>5600</AgcTargetSignalLevel>
+    <MuteRinging>false</MuteRinging>
+    <AlwaysUseLWMValue>false</AlwaysUseLWMValue>
+  </Audio>
+  <Video>
+    <DisplayVideoOnLogin>true</DisplayVideoOnLogin>
+    <WindowAlwaysOnTop>false</WindowAlwaysOnTop>
+    <ShowFullScreenWarning>true</ShowFullScreenWarning>
+    <StretchFullScreenVideo>false</StretchFullScreenVideo>
+    <WindowPosition>
+      <Left>-1</Left>
+      <Top>-1</Top>
+      <Width>-1</Width>
+      <Height>-1</Height>
+    </WindowPosition>
+    <DisableScreenSaverOnVideoCall>false</DisableScreenSaverOnVideoCall>
+    <EnableMultiMonitorChangePolling>true</EnableMultiMonitorChangePolling>
+    <MultiMonitorChangePollingTickDuration>10</MultiMonitorChangePollingTickDuration>
+  </Video>
+  <InstantMessaging>
+    <EnableLocalArchival>false</EnableLocalArchival>
+    <EnableServerArchival>false</EnableServerArchival>
+    <CurrentFontName>Arial</CurrentFontName>
+    <CurrentFontStyle>Normal</CurrentFontStyle>
+    <CurrentFontWeight>Normal</CurrentFontWeight>
+    <CurrentFontSize>12</CurrentFontSize>
+    <CurrentFontColor>Black</CurrentFontColor>
+    <CurrentFontColorValue>#FF000000</CurrentFontColorValue>
+    <EnableNumberParsing>true</EnableNumberParsing>
+    <EnableLinkParsing>true</EnableLinkParsing>
+    <EnableUserIdleTimer>true</EnableUserIdleTimer>
+    <UserIdleTimeout>10</UserIdleTimeout>
+    <ArchivalDuration>30</ArchivalDuration>
+    <MaxTypeTime>10</MaxTypeTime>
+  </InstantMessaging>
+  <QualityOfService>
+    <UserSpecifiedDSCPValueForAudio>46</UserSpecifiedDSCPValueForAudio>
+    <UserSpecifiedLayer2PriorityValueForAudio>6</UserSpecifiedLayer2PriorityValueForAudio>
+  </QualityOfService>
+  <HotKeys>
+    <KeySet>
+      <HotKey>
+        <Type>CallAnswer</Type>
+        <Key>65</Key>
+        <Modifiers>3</Modifiers>
+        <IsGlobal>true</IsGlobal>
+        <ResourceKey />
+      </HotKey>
+      <HotKey>
+        <Type>CallEnd</Type>
+        <Key>69</Key>
+        <Modifiers>3</Modifiers>
+        <IsGlobal>true</IsGlobal>
+        <ResourceKey />
+      </HotKey>
+      <HotKey>
+        <Type>ApplicationShowHide</Type>
+        <Key>89</Key>
+        <Modifiers>1</Modifiers>
+        <IsGlobal>true</IsGlobal>
+        <ResourceKey />
+      </HotKey>
+      <HotKey>
+        <Type>CallFromClipboard</Type>
+        <Key>87</Key>
+        <Modifiers>1</Modifiers>
+        <IsGlobal>true</IsGlobal>
+        <ResourceKey />
+      </HotKey>
+    </KeySet>
+  </HotKeys>
+  <SoundRegistryKeys>
+    <RegistryKeys>
+      <SoundsRegistryKeys>
+        <Key>OneXC_IMAlert</Key>
+        <SoundFile>C:\Program Files (x86)\Avaya\Avaya one-X Communicator\waveFiles\incoming_im.wav</SoundFile>
+      </SoundsRegistryKeys>
+      <SoundsRegistryKeys>
+        <Key>OneXC_InternalCallAlert</Key>
+        <SoundFile>C:\Program Files (x86)\Avaya\Avaya one-X Communicator\waveFiles\ringinside.wav</SoundFile>
+      </SoundsRegistryKeys>
+      <SoundsRegistryKeys>
+        <Key>OneXC_ExternalCallAlert</Key>
+        <SoundFile>C:\Program Files (x86)\Avaya\Avaya one-X Communicator\waveFiles\ringoutside.wav</SoundFile>
+      </SoundsRegistryKeys>
+      <SoundsRegistryKeys>
+        <Key>OneXC_BridgedAlert</Key>
+        <SoundFile>C:\Program Files (x86)\Avaya\Avaya one-X Communicator\waveFiles\ringinside.wav</SoundFile>
+      </SoundsRegistryKeys>
+      <SoundsRegistryKeys>
+        <Key>OneXC_TeamAlert</Key>
+        <SoundFile>C:\Program Files (x86)\Avaya\Avaya one-X Communicator\waveFiles\ringinside.wav</SoundFile>
+      </SoundsRegistryKeys>
+      <SoundsRegistryKeys>
+        <Key>OneXC_CallPickupAlert</Key>
+        <SoundFile>C:\Program Files (x86)\Avaya\Avaya one-X Communicator\waveFiles\ringinside.wav</SoundFile>
+      </SoundsRegistryKeys>
+    </RegistryKeys>
+  </SoundRegistryKeys>
+</UserData>

@@ -1,0 +1,306 @@
+<ConfigData xmlns="http://xml.avaya.com/endpointAPI">
+<version>1</version>
+<parameter>
+<name>OwnIPAddress</name>
+<value>192.168.56.1</value>
+</parameter>
+<parameter>
+<name>ReUseIPAddress</name>
+<value>192.168.56.1</value>
+</parameter>
+<parameter>
+<name>SipProxyServerList</name>
+<value>192.168.241.15,192.168.249.24</value>
+</parameter>
+<parameter>
+<name>SipControllerList</name>
+<value>192.168.249.24;transport=tls,192.168.241.15;transport=tls</value>
+</parameter>
+<parameter>
+<name>SipSignalTransportType</name>
+<value>2</value>
+</parameter>
+<parameter>
+<name>FailbackPolicy</name>
+<value>admin</value>
+</parameter>
+<parameter>
+<name>RtpPortLow</name>
+<value>2048</value>
+</parameter>
+<parameter>
+<name>RtpPortRange</name>
+<value>1281</value>
+</parameter>
+<parameter>
+<name>SipUserId</name>
+<value>@</value>
+</parameter>
+<parameter>
+<name>PrevSipUserAccount</name>
+<value>@</value>
+</parameter>
+<parameter>
+<name>SignalProtocol</name>
+<value>1</value>
+</parameter>
+<parameter>
+<name>UserEnableVideo</name>
+<value>0</value>
+</parameter>
+<parameter>
+<name>AudioDeviceList</name>
+<value><AudioDeviceList>
+<RingViaSecondDevice>true</RingViaSecondDevice>
+<RingingDeviceEnabled>true</RingingDeviceEnabled>
+<playback>
+<device>
+<guid>{0.0.0.00000000}.{4d47556a-df98-42b6-96cf-8cb85e45a991}</guid>
+<name>Динамики (5- USB Audio Device)</name>
+<volume>100</volume>
+<state>false</state>
+<available>false</available>
+</device>
+<device>
+<guid>{0.0.0.00000000}.{3c218e45-b547-451d-b38f-0c343aca4694}</guid>
+<name>Динамики (2- USB Audio Device)</name>
+<volume>100</volume>
+<state>false</state>
+<available>false</available>
+</device>
+<device>
+<guid>{0.0.0.00000000}.{36d663d5-e671-4026-b435-0c8928b4a00a}</guid>
+<name>CABLE Input (VB-Audio Virtual C</name>
+<volume>100</volume>
+<state>false</state>
+<available>false</available>
+</device>
+<device>
+<guid>{0.0.0.00000000}.{601062d4-718e-468a-ade7-3c6ef35e6744}</guid>
+<name>Динамики (2- USB Audio Device)</name>
+<volume>100</volume>
+<state>false</state>
+<available>false</available>
+</device>
+<device>
+<guid>{3.0.0.00000001}.{6C26BA7D-F0B2-4225-B422-8168C5261E45}</guid>
+<name>Удаленное аудио</name>
+<volume>100</volume>
+<state>false</state>
+<available>false</available>
+</device>
+<device>
+<guid>{0.0.0.00000000}.{586740df-0f48-4bee-aaa2-8203f8481183}</guid>
+<name>Динамики (USB Audio Device)</name>
+<volume>100</volume>
+<state>false</state>
+<available>false</available>
+</device>
+<device>
+<guid>{0.0.0.00000000}.{c07df364-4684-4c5a-8b82-64f2d9368532}</guid>
+<name>Динамики (USB Audio Device)</name>
+<volume>100</volume>
+<state>false</state>
+<available>false</available>
+</device>
+<device>
+<guid>{0.0.0.00000000}.{882388e4-a260-4df5-b717-23bc7c2bd600}</guid>
+<name>Динамики (4- USB Audio Device)</name>
+<volume>100</volume>
+<state>true</state>
+<available>true</available>
+</device>
+<device>
+<guid>{0.0.0.00000000}.{5e06e31c-5831-42f1-8e29-233b7dfb33ee}</guid>
+<name>C24F390 -2 (HD Audio Driver for</name>
+<volume>100</volume>
+<state>false</state>
+<available>false</available>
+</device>
+<device>
+<guid>{0.0.0.00000000}.{dd7af5a9-58c1-4dec-a759-4902f1a8bada}</guid>
+<name>Динамики (6- USB Audio Device)</name>
+<volume>100</volume>
+<state>false</state>
+<available>false</available>
+</device>
+</playback>
+<microphone>
+<device>
+<guid>{0.0.1.00000000}.{0c4f8086-0b28-48cf-abb8-f6f7740fa2d4}</guid>
+<name>Микрофон (5- USB Audio Device)</name>
+<volume>100</volume>
+<state>false</state>
+<available>false</available>
+</device>
+<device>
+<guid>{0.0.1.00000000}.{c56ac739-5bf1-4148-bac9-9ce4364dce2f}</guid>
+<name>Микрофон (2- USB Audio Device)</name>
+<volume>100</volume>
+<state>false</state>
+<available>false</available>
+</device>
+<device>
+<guid>{0.0.1.00000000}.{495130ce-cde9-432e-81e8-3a262879fb7f}</guid>
+<name>CABLE Output (VB-Audio Virtual </name>
+<volume>100</volume>
+<state>false</state>
+<available>false</available>
+</device>
+<device>
+<guid>{0.0.1.00000000}.{915cbf19-5049-49e8-b6ba-4ff5a6d39336}</guid>
+<name>Микрофон (2- USB Audio Device)</name>
+<volume>100</volume>
+<state>false</state>
+<available>false</available>
+</device>
+<device>
+<guid>{3.0.1.00000001}.{A3ED9185-1E02-411C-B11B-05D92F25CEF4}</guid>
+<name>Удаленное аудио</name>
+<volume>100</volume>
+<state>false</state>
+<available>false</available>
+</device>
+<device>
+<guid>{0.0.1.00000000}.{32b057af-81bf-4d8f-9fa4-fcec6f81ef54}</guid>
+<name>Микрофон (USB Audio Device)</name>
+<volume>100</volume>
+<state>false</state>
+<available>false</available>
+</device>
+<device>
+<guid>{0.0.1.00000000}.{85cfd1f2-74c1-431c-80a3-87697d026d18}</guid>
+<name>Микрофон (USB Audio Device)</name>
+<volume>100</volume>
+<state>false</state>
+<available>false</available>
+</device>
+<device>
+<guid>{0.0.1.00000000}.{85547d61-09a7-4a76-a5f6-e0d2646efa62}</guid>
+<name>Микрофон (2- 2K Webcam Digital </name>
+<volume>100</volume>
+<state>false</state>
+<available>false</available>
+</device>
+<device>
+<guid>{0.0.1.00000000}.{e3e1ca9e-dd6a-47c6-8dbd-d24f3a47f608}</guid>
+<name>Микрофон (4- USB Audio Device)</name>
+<volume>100</volume>
+<state>true</state>
+<available>true</available>
+</device>
+<device>
+<guid>{0.0.1.00000000}.{cdb631d8-3b93-4963-9275-cfc119238310}</guid>
+<name>Микрофон (HD Pro Webcam C920)</name>
+<volume>100</volume>
+<state>false</state>
+<available>false</available>
+</device>
+<device>
+<guid>{0.0.1.00000000}.{e09fee4b-999c-4bb4-bb05-53115d77baad}</guid>
+<name>Микрофон (6- USB Audio Device)</name>
+<volume>100</volume>
+<state>false</state>
+<available>false</available>
+</device>
+</microphone>
+<ringer>
+<device>
+<guid>{0.0.0.00000000}.{4d47556a-df98-42b6-96cf-8cb85e45a991}</guid>
+<name>Динамики (5- USB Audio Device)</name>
+<volume>100</volume>
+<state>false</state>
+<available>false</available>
+</device>
+<device>
+<guid>{0.0.0.00000000}.{3c218e45-b547-451d-b38f-0c343aca4694}</guid>
+<name>Динамики (2- USB Audio Device)</name>
+<volume>100</volume>
+<state>false</state>
+<available>false</available>
+</device>
+<device>
+<guid>{0.0.0.00000000}.{601062d4-718e-468a-ade7-3c6ef35e6744}</guid>
+<name>Динамики (2- USB Audio Device)</name>
+<volume>100</volume>
+<state>false</state>
+<available>false</available>
+</device>
+<device>
+<guid>{3.0.0.00000001}.{6C26BA7D-F0B2-4225-B422-8168C5261E45}</guid>
+<name>Удаленное аудио</name>
+<volume>100</volume>
+<state>false</state>
+<available>false</available>
+</device>
+<device>
+<guid>{0.0.0.00000000}.{586740df-0f48-4bee-aaa2-8203f8481183}</guid>
+<name>Динамики (USB Audio Device)</name>
+<volume>100</volume>
+<state>false</state>
+<available>false</available>
+</device>
+<device>
+<guid>{0.0.0.00000000}.{c07df364-4684-4c5a-8b82-64f2d9368532}</guid>
+<name>Динамики (USB Audio Device)</name>
+<volume>100</volume>
+<state>false</state>
+<available>false</available>
+</device>
+<device>
+<guid>{0.0.0.00000000}.{36d663d5-e671-4026-b435-0c8928b4a00a}</guid>
+<name>CABLE Input (VB-Audio Virtual C</name>
+<volume>100</volume>
+<state>false</state>
+<available>false</available>
+</device>
+<device>
+<guid>{0.0.0.00000000}.{882388e4-a260-4df5-b717-23bc7c2bd600}</guid>
+<name>Динамики (4- USB Audio Device)</name>
+<volume>100</volume>
+<state>true</state>
+<available>true</available>
+</device>
+<device>
+<guid>{0.0.0.00000000}.{5e06e31c-5831-42f1-8e29-233b7dfb33ee}</guid>
+<name>C24F390 -2 (HD Audio Driver for</name>
+<volume>100</volume>
+<state>false</state>
+<available>false</available>
+</device>
+<device>
+<guid>{0.0.0.00000000}.{dd7af5a9-58c1-4dec-a759-4902f1a8bada}</guid>
+<name>Динамики (6- USB Audio Device)</name>
+<volume>100</volume>
+<state>false</state>
+<available>false</available>
+</device>
+</ringer>
+</AudioDeviceList>
+</value>
+</parameter>
+<parameter>
+<name>EnableAudioMuteDetection</name>
+<value>1</value>
+</parameter>
+<parameter>
+<name>AlternateGKAddressList</name>
+<value>192.168.249.23,192.168.249.24,192.168.249.21,192.168.241.15</value>
+</parameter>
+<parameter>
+<name>VideoRtpPortLow</name>
+<value>2688</value>
+</parameter>
+<parameter>
+<name>VideoRtpPortRange</name>
+<value>640</value>
+</parameter>
+<parameter>
+<name>AUDIO_802_PRIORITY</name>
+<value>-1</value>
+</parameter>
+<parameter>
+<name>VIDEO_PHB</name>
+<value>0</value>
+</parameter>
+</ConfigData>
